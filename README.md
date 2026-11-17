@@ -1,10 +1,16 @@
 # Gabriel Dantas
 
+> 🌐 **English** · [Leia em Português (PT-BR)](README.pt-BR.md)
+
 **AI Product Manager & Context Engineer** · Digital Product Management @ **Braskem** · **CAPM®**
 
 Bridging **Product Discovery & Business Governance** (RICE/WSJF, KPIs, Adoption Rate) with **Deterministic AI Engineering** (Model Context Protocol, Semantic Layers, Prefix Caching, AST Guardrails, and TDD).
 
-📍 São Paulo, Brazil · 💼 [LinkedIn](https://www.linkedin.com/in/gdso) · 🚀 [Live AI App](https://data-context-engine.streamlit.app) · ✉️ `gabrielsilva07032002@gmail.com`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-gdso-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gdso)
+[![Live AI App](https://img.shields.io/badge/Live_Demo-Data_Context_Engine-6366F1?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-context-engine.streamlit.app)
+[![Email](https://img.shields.io/badge/Email-gabrielsilva07032002%40gmail.com-18181B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielsilva07032002@gmail.com)
+
+📍 São Paulo, Brazil · Open to Remote (Global/LATAM) & Hybrid SP
 
 ---
 
@@ -12,11 +18,11 @@ Bridging **Product Discovery & Business Governance** (RICE/WSJF, KPIs, Adoption 
 
 | Project | Problem & Architecture | Verified Impact & Engineering |
 | :--- | :--- | :--- |
-| **[Data Context Engine (DCE)](https://github.com/dantinha/data-context-engine)**<br/>*[Live Demo ↗](https://data-context-engine.streamlit.app)* | 4-layer Context Engineering & Governance engine for analytical LLMs over **DuckDB** and **dbt**, exposing a **FastMCP** server with 7 atomic tools, BFS relational graph routing, and **SQLGlot AST** sandboxing. | • **83.3% → 90.0%** Text-to-SQL accuracy (vs. 33.3% naive L1 dump) across 30 gold-standard benchmarks<br/>• **-61.3% token usage** via static Prefix Caching (62.8% cacheable)<br/>• **100% blocked** across 24 SQL injection/mutation attack vectors<br/>• **83 automated tests** (`pytest` + Streamlit `AppTest`) |
-| **[Voz Guia (Android)](https://github.com/dantinha/voz-guia-android)** | Native Android assistive AI agent (**Kotlin / Jetpack Compose**) replacing mechanical TalkBack flows for users with recent visual loss, powered by `AccessibilityService` and offline voice (`Piper TTS` / `Vosk`). | • Full **PRD v2.0** (5 Epics, 18 Features, Gherkin User Stories)<br/>• **<50ms** deterministic haptic feedback contract<br/>• **34 suites / 150 TDD unit tests** passing via Gradle<br/>• Signed Play Console release bundle (`AAB`) validated in the field |
-| **[CertRadar](https://github.com/dantinha/cert-radar)** | Zero-cost personal upskilling & official voucher tracking engine (**Python / SQLite / CLI / SPA**) with deterministic matching against target AI/Product career tracks and deadline alerts. | • **154 automated tests** passing (**100% pass rate**)<br/>• Automated link liveness & anti-spam alert pipeline |
-| **[Text-to-CAD](https://github.com/dantinha/text-to-cad)** *(v1 in progress)* | Natural-language → parametric 3D engine: LLM emits a Zod-validated CSG **IR** (never raw geometry), evaluated by **manifold-3d** in a Web Worker and rendered with **React Three Fiber**; deterministic **OpenSCAD** emitter for export. | • **101 automated tests** passing, TypeScript `strict`, ESLint clean<br/>• Zero-copy mesh pipeline, 4 render modes, dimension labels, fit-to-view<br/>• Secret-scanning pre-commit hook + CI |
-| **Classifica_Lead** *(Private / B2B)* | Multi-tenant B2B inbound/outbound lead qualification platform built with **FastAPI**, **Gemini Structured Outputs**, dynamic tenant rubrics, and LGPD Art. 18 opt-out compliance. | • 4-provider resilient CNPJ enrichment fallback (`BrasilAPI → MinhaReceita → ReceitaWS → CNPJ.ws`)<br/>• Zero-token CNAE pre-filtering |
+| **[Data Context Engine (DCE)](https://github.com/dantinha/data-context-engine)**<br/>*[Live Demo ↗](https://data-context-engine.streamlit.app)* | 4-layer Context Engineering & Governance engine for analytical LLMs over **DuckDB** and **dbt**, exposing a **FastMCP** server with 7 atomic tools, BFS relational graph routing, and **SQLGlot AST** sandboxing. | • **83.3% → 86.7%** (`26/30`) Text-to-SQL accuracy (vs. 33.3% naive L1 dump) across 30 gold benchmarks<br/>• **-61.3% token usage** via static Prefix Caching (62.8% cacheable)<br/>• **100% blocked** across 24 SQL injection/mutation attack vectors<br/>• **83 automated tests** (`pytest` + Streamlit `AppTest`) |
+| **[Voz Guia (Android)](https://github.com/dantinha/voz-guia-android)** | Native Android assistive AI agent (**Kotlin / Jetpack Compose**) replacing mechanical TalkBack flows for users with recent visual loss, powered by `AccessibilityService`, offline voice (`Piper TTS` / `Vosk`), and Caregiver UI. | • Full **PRD v2.0** (5 Epics, 18 Features, Gherkin User Stories)<br/>• **<50ms** deterministic haptic feedback contract<br/>• **34 suites / 150 TDD unit tests** passing via Gradle<br/>• Emulator E2E QA & signed release bundle (`AAB`) config |
+| **[Text-to-CAD](https://github.com/dantinha/text-to-cad)** | Natural-language → parametric 3D CAD engine: Gemini emits a Zod-validated CSG **IR** (never raw geometry) with a 2-step repair loop, evaluated by **manifold-3d** in a Web Worker and rendered with **React Three Fiber**; deterministic **OpenSCAD** + binary `.stl` export. | • **201 unit tests** (95%+ coverage) + **5/5 Playwright E2E** passing<br/>• TypeScript `strict`, ESLint clean, secret scanning pre-commit + CI<br/>• Hardened `/api/gemini` Cloudflare Worker proxy + BYOK (`sessionStorage`) |
+| **[CertRadar](https://github.com/dantinha/cert-radar)** | Zero-cost personal upskilling & official exam voucher engine (**Python / SQLite / CLI / SPA**) with deterministic 4-pillar career-gap matching, link liveness checks, and deduplicated deadline alerts. | • **158 automated tests** passing (**100% pass rate**)<br/>• Anti-spam Windows Toast & Telegram alerts (`activation_epoch`)<br/>• `Dockerfile` + `render.yaml` PWA deploy ready |
+| **Classifica_Lead** *(Private / B2B)* | Multi-tenant B2B inbound/outbound lead qualification platform built with **FastAPI**, **Gemini Structured Outputs**, dynamic tenant rubrics, LangGraph RAG, and LGPD Art. 18 opt-out compliance. | • 4-provider resilient CNPJ enrichment fallback (`BrasilAPI → MinhaReceita → ReceitaWS → CNPJ.ws`)<br/>• Zero-token CNAE pre-filtering |
 
 ---
 
