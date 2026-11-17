@@ -38,6 +38,7 @@ Bridging **Product Discovery & Business Governance** (RICE/WSJF, KPIs, Adoption 
 
 ### Education & Credentials
 
+- **Specialization in Machine Learning Engineering** — FIAP *(2025 – 2026)*
 - **MBA in Business Intelligence** — FIAP *(2025 – 2026)*
 - **MBA in Industrial Automation** — USP-POLI *(2023 – 2025)*
 - **B.Sc. in Electrical Engineering** — Universidade São Judas *(2024 – 2026)*

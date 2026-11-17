@@ -38,6 +38,7 @@ Conectando **Product Discovery & Governança de Negócio** (RICE/WSJF, KPIs, Tax
 
 ### Formação & Certificações
 
+- **Especialização em Machine Learning Engineering** — FIAP *(2025 – 2026)*
 - **MBA em Business Intelligence** — FIAP *(2025 – 2026)*
 - **MBA em Automação Industrial** — USP-POLI *(2023 – 2025)*
 - **Bacharelado em Engenharia Elétrica** — Universidade São Judas *(2024 – 2026)*
