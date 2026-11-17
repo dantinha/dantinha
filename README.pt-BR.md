@@ -6,6 +6,7 @@
 
 Conectando **Product Discovery & Governança de Negócio** (RICE/WSJF, KPIs, Taxa de Adoção) com **Engenharia Determinística de IA** (Model Context Protocol, Camadas Semânticas, Prefix Caching, Guardrails AST e TDD).
 
+[![Portfolio](https://img.shields.io/badge/Portfólio_Online-dantinha.github.io%2Fportfolio-991b1b?style=for-the-badge&logo=react&logoColor=white)](https://dantinha.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gdso-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gdso)
 [![App Online](https://img.shields.io/badge/Live_Demo-Data_Context_Engine-6366F1?style=for-the-badge&logo=streamlit&logoColor=white)](https://data-context-engine.streamlit.app)
 [![Email](https://img.shields.io/badge/Email-gabrielsilva07032002%40gmail.com-18181B?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gabrielsilva07032002@gmail.com)
@@ -18,6 +19,7 @@ Conectando **Product Discovery & Governança de Negócio** (RICE/WSJF, KPIs, Tax
 
 | Projeto | Problema & Arquitetura | Impacto Verificado & Engenharia |
 | :--- | :--- | :--- |
+| **[Portfólio Interativo](https://github.com/dantinha/portfolio)**<br/>*[Site Online ↗](https://dantinha.github.io/portfolio/)* | Site de portfólio pessoal construído em **Editorial Bento (Obsidian Charcoal, Carmesim & Creme)** com React 19, TypeScript estrito, Tailwind CSS v4, tipografia serifada Newsreader e microinterações acessíveis. | • **CI/CD Automatizado** via GitHub Pages & GitHub Actions<br/>• **100% acessível** com navegação por teclado, dismiss por Esc & tokens de contraste<br/>• Zero clichês genéricos de IA; foco em governança de produto |
 | **[Data Context Engine (DCE)](https://github.com/dantinha/data-context-engine)**<br/>*[Demo Online ↗](https://data-context-engine.streamlit.app)* | Motor de Context Engineering e Governança em 4 camadas para LLMs analíticos sobre **DuckDB** e **dbt**, expondo servidor **FastMCP** com 7 ferramentas atômicas, roteamento por grafo BFS e sandbox **SQLGlot AST**. | • **83,3% → 86,7%** (`26/30`) de acurácia Text-to-SQL (vs. 33,3% L1 ingênuo) em 30 benchmarks gold<br/>• **-61,3% em tokens** com Prefix Caching estático (62,8% cacheável)<br/>• **100% bloqueio** em 24 vetores de SQL injection/mutação<br/>• **83 testes automatizados** (`pytest` + Streamlit `AppTest`) |
 | **[Voz Guia (Android)](https://github.com/dantinha/voz-guia-android)** | Agente assistivo nativo Android (**Kotlin / Jetpack Compose**) que substitui fluxos mecânicos do TalkBack para pessoas com perda visual recente, usando `AccessibilityService`, voz offline (`Piper TTS` / `Vosk`) e Modo Cuidador. | • **PRD v2.0** completo (5 Épicos, 18 Funcionalidades, Gherkin)<br/>• Contrato determinístico de feedback háptico **<50ms**<br/>• **34 suítes / 150 testes TDD** aprovados via Gradle<br/>• QA em emulador + configuração de release `AAB` assinada |
 | **[Text-to-CAD](https://github.com/dantinha/text-to-cad)** | Motor de CAD 3D paramétrico por linguagem natural: o Gemini gera apenas uma **IR** CSG validada por Zod (nunca malha bruta) com loop de reparo, avaliada por **manifold-3d** em Web Worker e renderizada com **React Three Fiber**; exporta `.stl` binário e `.scad`. | • **201 testes unitários** (95%+ cobertura) + **5/5 E2E Playwright**<br/>• TypeScript `strict`, ESLint limpo, bloqueio de segredos no pré-commit + CI<br/>• Proxy blindado `/api/gemini` (Cloudflare Worker) + BYOK (`sessionStorage`) |
@@ -34,7 +36,7 @@ Conectando **Product Discovery & Governança de Negócio** (RICE/WSJF, KPIs, Tax
 
 ---
 
-### Formação & Credenciais
+### Formação & Certificações
 
 - **MBA em Business Intelligence** — FIAP *(2025 – 2026)*
 - **MBA em Automação Industrial** — USP-POLI *(2023 – 2025)*
